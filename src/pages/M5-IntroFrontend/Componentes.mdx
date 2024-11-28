@@ -1,0 +1,33 @@
+import CodeMirrorEditor from './../../components/CodeMirrorEditor.jsx';
+
+export const CodeEditor = (props) => <CodeMirrorEditor {...props} />;
+
+# Componentes
+
+En esta lección aprenderemos acerca de componentes.
+
+## ¿Qué es un componente?
+
+Un componente es una unidad básica y reutilizable de una aplicación en React. Puedes pensar en los componentes como piezas de Lego que, al ensamblarse, forman la interfaz de usuario completa. Cada componente encapsula su lógica, diseño y funcionalidad, lo que los hace fáciles de gestionar y mantener.
+
+### Características principales:
+- Reutilizables: Puedes usar el mismo componente en diferentes partes de la aplicación.
+- Modulares: Cada componente se enfoca en una sola responsabilidad.
+- Declarativos: Definen cómo debe verse una parte de la UI según su estado.
+
+Gracias a los componentes podemos, entre otras cosas: 
+- Mejoran la organización del código.
+- Hacen el código más legible y mantenible.
+- Facilitan la reutilización de elementos comunes (como botones o menús).
+
+## Cómo crear componentes
+Existen al menos 2 formas de crear un componente en React.
+
+### Componentes funcionales (Function componentes)
+<CodeEditor initialCode="console.log('Hola mundo')" />
+
+### Componentes de clase (Class componentes)
+<CodeEditor initialCode="console.log('Hola mundo')" />
+
+
+NOTA: Para estos apuntes utilizaremos componentes funcionales.
